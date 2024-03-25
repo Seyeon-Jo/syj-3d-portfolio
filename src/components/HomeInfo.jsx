@@ -9,7 +9,7 @@ const HomeInfo = ({ currentStage }) => {
         Hi, I'm
         <span className="font-semibold mx-2 text-white">Seyeon Jo</span>
         👋
-        <br />A UX designer from Toronto!
+        <br />A UX Designer from Toronto!
       </h1>
     );
 
@@ -17,12 +17,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Worked with many companies <br /> and picked up many skills along the
-          way
+          Do you want to learn more about me? <br /> If so, click below!
         </p>
 
         <Link to="/about" className="neo-brutalism-white neo-btn">
-          Learn more
+          Learn More
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
@@ -33,12 +32,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium text-center sm:text-xl">
-          Led multiple projects to success over the years. <br /> Curious about
-          the impact?
+          Worked with many projects <br /> and learned many skills along the way
         </p>
 
         <Link to="/projects" className="neo-brutalism-white neo-btn">
-          Visit my portfolio
+          Learn More
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
@@ -49,12 +47,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          Need a project done or looking for a dev? <br /> I'm just a few
-          keystrokes away
+          Would you like to be my friend? <br /> Let's connect! 🐰
         </p>
 
         <Link to="/contact" className="neo-brutalism-white neo-btn">
-          Let's talk
+          Contact
           <img src={arrow} alt="arrow" className="w-4 h-4 object-contain" />
         </Link>
       </div>
