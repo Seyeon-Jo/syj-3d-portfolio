@@ -46,8 +46,14 @@ const Projects = () => {
                   rel="noopener noreferrer"
                   className="btn font-semibold text-purple-600"
                 >
-                  Case Study
+                  Learn More
                 </Link>
+                <img
+                  src={arrow}
+                  alt="arrow"
+                  className="w-4 h-4 object-contain"
+                />
+             {/* Github link will be on case study page like figma link
                 <Link
                   to={project.githubLink}
                   target="_blank"
@@ -55,12 +61,7 @@ const Projects = () => {
                   className="btn font-semibold text-purple-600"
                 >
                   Github
-                </Link>
-                {/* <img
-                  src={arrow}
-                  alt="arrow"
-                  className="w-4 h-4 object-contain"
-                /> */}
+                </Link> */}
               </div>
             </div>
           </div>
