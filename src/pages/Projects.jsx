@@ -9,7 +9,7 @@ const Projects = () => {
     <section className="max-container">
       <h1 className="head-text">
         My{" "}
-        <span className="drop-shadow font-semibold">
+        <span className="drop-shadow purple-gradient_text font-semibold">
           Projects
         </span>
       </h1>
@@ -39,12 +39,12 @@ const Projects = () => {
                 {project.name}
               </h4>
               <p className="mt-2 text-slate-500">{project.description}</p>
-              <div className="mt-5 flex items-center gap-2 font-poppins">
+              <div className="mt-5 text-purple-600 flex items-center gap-2 font-poppins">
                 <Link
                   to={project.caseLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn font-semibold text-black-600"
+                  className=" font-semibold text-black-600"
                 >
                   Learn More
                 </Link>
@@ -53,7 +53,7 @@ const Projects = () => {
                   alt="arrow"
                   className="w-4 h-4 object-contain"
                 />
-             {/* Github link will be on case study page like figma link
+                {/* Github link will be on case study page like figma link
                 <Link
                   to={project.githubLink}
                   target="_blank"

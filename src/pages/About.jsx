@@ -13,7 +13,7 @@ const About = () => {
     <section className="max-container">
       <h1 className="head-text">
         Hello, I'm{" "}
-        <span className="font-semibold drop-shadow">
+        <span className="font-semibold purple-gradient_text drop-shadow">
           {" "}
           Seyeon
         </span>{" "}
