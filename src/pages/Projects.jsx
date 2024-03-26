@@ -14,12 +14,10 @@ const Projects = () => {
         </span>
       </h1>
 
-      <p className="text-slate-500 mt-2 leading-relaxed">
-        I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+      <p className="text-slate-500 mt-4 leading-relaxed">
+        I have worked on various projects such as school assignments,
+        hackathons, and group projects. Through these experiences, I have
+        learned a lot, and below are some of the projects I have worked on.
       </p>
 
       <div className="flex flex-wrap my-20 gap-16">
@@ -43,18 +41,26 @@ const Projects = () => {
               <p className="mt-2 text-slate-500">{project.description}</p>
               <div className="mt-5 flex items-center gap-2 font-poppins">
                 <Link
-                  to={project.link}
+                  to={project.caseLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-semibold text-purple-600"
+                  className="btn font-semibold text-purple-600"
                 >
-                  Live Link
+                  Case Study
                 </Link>
-                <img
+                <Link
+                  to={project.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn font-semibold text-purple-600"
+                >
+                  Github
+                </Link>
+                {/* <img
                   src={arrow}
                   alt="arrow"
                   className="w-4 h-4 object-contain"
-                />
+                /> */}
               </div>
             </div>
           </div>
