@@ -9,7 +9,7 @@ const Projects = () => {
     <section className="max-container">
       <h1 className="head-text">
         My{" "}
-        <span className="purple-gradient_text drop-shadow font-semibold">
+        <span className="drop-shadow font-semibold">
           Projects
         </span>
       </h1>
@@ -44,7 +44,7 @@ const Projects = () => {
                   to={project.caseLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn font-semibold text-purple-600"
+                  className="btn font-semibold text-black-600"
                 >
                   Learn More
                 </Link>
@@ -58,7 +58,7 @@ const Projects = () => {
                   to={project.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn font-semibold text-purple-600"
+                  className="btn font-semibold text-black-600"
                 >
                   Github
                 </Link> */}
