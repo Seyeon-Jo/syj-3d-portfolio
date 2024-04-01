@@ -1,34 +1,32 @@
 import { Link } from "react-router-dom";
 
 import { CTA } from "../components";
-import { projects } from "../constants";
+import { studies } from "../constants";
 import { arrow } from "../assets/icons";
 
-const Projects = () => {
+const Studies = () => {
   return (
     <section className="max-container">
       <h1 className="head-text">
         My{" "}
         <span className="drop-shadow purple-gradient_text font-semibold">
-          Projects
+          Studies
         </span>
       </h1>
-
       <p className="text-slate-500 mt-4 leading-relaxed">
-        I have worked on various projects such as school assignments,
-        hackathons, and group projects. Through these experiences, I have
-        learned a lot, and below are some of the projects I have worked on.
+        I have conducted various studies, including academic research and
+        personal investigations. Below are some of the studies I have
+        undertaken.
       </p>
-
       <div className="flex flex-wrap my-20 gap-16">
-        {projects.map((project) => (
-          <div className="lg:w-[400px] w-full" key={project.name}>
+        {studies.map((study) => (
+          <div className="lg:w-[400px] w-full" key={study.name}>
             <div className="block-container w-12 h-12">
-              <div className={`btn-back rounded-xl ${project.theme}`} />
+              <div className={`btn-back rounded-xl ${study.theme}`} />
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
-                  src={project.iconUrl}
-                  alt="threads"
+                  src={study.iconUrl}
+                  alt={study.name}
                   className="w-1/2 h-1/2 object-contain"
                 />
               </div>
@@ -36,12 +34,12 @@ const Projects = () => {
 
             <div className="mt-5 flex flex-col">
               <h4 className="text-2xl font-poppins font-semibold">
-                {project.name}
+                {study.name}
               </h4>
-              <p className="mt-2 text-slate-500">{project.description}</p>
+              <p className="mt-2 text-slate-500">{study.description}</p>
               <div className="mt-5 text-purple-600 flex items-center gap-2 font-poppins">
                 <Link
-                  to={project.link}
+                  to={study.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className=" font-semibold text-black-600"
@@ -55,7 +53,7 @@ const Projects = () => {
                 />
                 {/* Github link will be on case study page like figma link
                 <Link
-                  to={project.githubLink}
+                  to={study.githubLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn font-semibold text-black-600"
@@ -67,12 +65,11 @@ const Projects = () => {
           </div>
         ))}
       </div>
-
       <hr className="border-slate-200" />
-
-      <CTA />
+      <CTA />{" "}
+      {/* This assumes that CTA is generic and not specific to projects */}
     </section>
   );
 };
 
-export default Projects;
+export default Studies;

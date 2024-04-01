@@ -207,17 +207,15 @@ export const projects = [
     name: "Scheduler Web App",
     description:
       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    caseLink: "https://www.linkedin.com/in/seyeonjo/",
-    githubLink: "https://github.com/Seyeon-Jo",
+    link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
   },
   {
     iconUrl: threads,
     theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "Condo Management Web App",
     description:
       'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    caseLink: "https://www.linkedin.com/in/seyeonjo/",
-    githubLink: "https://github.com/Seyeon-Jo",
+    link: "https://www.linkedin.com/in/seyeonjo/",
   },
   // {
   //   iconUrl: car,
@@ -255,4 +253,23 @@ export const projects = [
   //   caseLink: "https://www.linkedin.com/in/seyeonjo/",
   //   githubLink: "https://github.com/Seyeon-Jo",
   // },
+];
+
+export const studies = [
+  {
+    iconUrl: summiz,
+    theme: "btn-back-pink",
+    name: "Github Blog",
+    description:
+      "Explore my GitHub study blog, tracking my current learning journey. Follow along as I delve into diverse subjects, sharing insights along the way.",
+    link: "https://seyeon-jo.github.io/",
+  },
+  {
+    iconUrl: snapgram,
+    theme: "btn-back-black",
+    name: "UX dictionary in Notion",
+    description:
+      "Explore my UX Notion dictionary—curated UX/UI design knowledge. Discover definitions and insights on the user experience journey.",
+    link: "https://seyeonjo.notion.site/86c247408add41d9bae6bcabcb7574af?v=f1d2953197cb42d7b0797010e848fa29&pvs=4",
+  },
 ];
