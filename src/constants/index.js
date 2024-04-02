@@ -248,15 +248,14 @@ export const projects = [
       "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
     link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
   },
-  // {
-  //   iconUrl: summiz,
-  //   theme: "btn-back-yellow",
-  //   name: "AI Summarizer Application",
-  //   description:
-  //     "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-  //   caseLink: "https://www.linkedin.com/in/seyeonjo/",
-  //   githubLink: "https://github.com/Seyeon-Jo",
-  // },
+  {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "Case Study Temp",
+    description:
+      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
+    link: "https://www.notion.so/seyeonjo/Case-Study-Temp-ba898c338c2c44e4873485324781f67c?pvs=4#be23b2c56f3442d0bd1d42920cf2d897",
+  },
 ];
 
 export const studies = [
