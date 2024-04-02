@@ -211,12 +211,20 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: scheduler,
-    theme: "btn-back-red",
-    name: "Scheduler Web App",
+    iconUrl: food,
+    theme: "btn-back-blue",
+    name: "Scarborough Food Network App",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://seyeonjo.notion.site/Scheduler-Web-App-36c37d7b064c4c75832f253143b553ca?pvs=4",
+      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
+    link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
+  },
+  {
+    iconUrl: chatbot,
+    theme: "btn-back-black",
+    name: "AI Chatbot",
+    description:
+      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+    link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
   },
   {
     iconUrl: concierge,
@@ -227,12 +235,12 @@ export const projects = [
     link: "https://seyeonjo.notion.site/Condo-Management-Web-App-6f6d4cc1776b4dd6b522b6d057dda245?pvs=4",
   },
   {
-    iconUrl: food,
-    theme: "btn-back-blue",
-    name: "Scarborough Food Network App",
+    iconUrl: scheduler,
+    theme: "btn-back-red",
+    name: "Scheduler Web App",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-    link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
+      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
+    link: "https://seyeonjo.notion.site/Scheduler-Web-App-36c37d7b064c4c75832f253143b553ca?pvs=4",
   },
   {
     iconUrl: journal,
@@ -241,14 +249,6 @@ export const projects = [
     description:
       "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
     link: "https://seyeonjo.notion.site/Journal-Web-App-2d969639dda1458f896a9a2dad2b6337?pvs=4",
-  },
-  {
-    iconUrl: chatbot,
-    theme: "btn-back-black",
-    name: "AI Chatbot",
-    description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-    link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
   },
   {
     iconUrl: summiz,
