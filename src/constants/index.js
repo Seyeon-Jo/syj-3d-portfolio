@@ -34,6 +34,8 @@ import {
   concierge,
   chatbot,
   scheduler,
+  drawing,
+  modeling,
 } from "../assets/icons";
 
 export const skills = [
@@ -273,6 +275,20 @@ export const studies = [
     name: "UX dictionary in Notion",
     description:
       "Explore my UX Notion dictionary—curated UX/UI design knowledge. Discover definitions and insights on the user experience journey.",
-    link: "https://seyeonjo.notion.site/86c247408add41d9bae6bcabcb7574af?v=f1d2953197cb42d7b0797010e848fa29&pvs=4",
+    link: "https://seyeonjo.notion.site/UX-Dictionary-62f05c26ff9d43ce81f5c0b81c1d3963?pvs=4",
+  },
+  {
+    iconUrl: drawing,
+    theme: "btn-back-yellow",
+    name: "Digital Drawing",
+    description: "Explore my digital drawing learning journey.",
+    link: "https://seyeonjo.notion.site/Digital-Drawing-62d0e43871924d09ae93098c3bac9796?pvs=4",
+  },
+  {
+    iconUrl: modeling,
+    theme: "btn-back-blue",
+    name: "3D Modeling",
+    description: "Explore my 3d Modeling learning journey.",
+    link: "https://seyeonjo.notion.site/3D-Modeling-8365e598f8c64338965f391ce011f938?pvs=4",
   },
 ];

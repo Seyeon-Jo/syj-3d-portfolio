@@ -36,6 +36,8 @@ import food from "./food.svg";
 import journal from "./journal.svg";
 import concierge from "./concierge.svg";
 import scheduler from "./scheduler.svg";
+import drawing from "./drawing.svg";
+import modeling from "./modeling.svg";
 
 export {
   css,
@@ -76,4 +78,6 @@ export {
   scheduler,
   chatbot,
   concierge,
+  drawing,
+  modeling,
 };
