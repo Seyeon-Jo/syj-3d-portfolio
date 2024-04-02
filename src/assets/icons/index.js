@@ -24,11 +24,18 @@ import estate from "./estate.svg";
 import pricewise from "./pricewise.svg";
 import snapgram from "./snapgram.svg";
 import summiz from "./summiz.svg";
+import blog from "./blog.svg";
 import threads from "./threads.svg";
 import arrow from "./arrow.svg";
 import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
+import dictionary from "./dictionary.svg";
+import chatbot from "./chatbot.svg";
+import food from "./food.svg";
+import journal from "./journal.svg";
+import concierge from "./concierge.svg";
+import scheduler from "./scheduler.svg";
 
 export {
   css,
@@ -62,4 +69,11 @@ export {
   contact,
   soundon,
   soundoff,
+  blog,
+  dictionary,
+  food,
+  journal,
+  scheduler,
+  chatbot,
+  concierge,
 };

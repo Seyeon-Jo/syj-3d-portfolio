@@ -27,6 +27,13 @@ import {
   figma,
   miro,
   framer,
+  blog,
+  dictionary,
+  journal,
+  food,
+  concierge,
+  chatbot,
+  scheduler,
 } from "../assets/icons";
 
 export const skills = [
@@ -202,48 +209,45 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: scheduler,
     theme: "btn-back-red",
     name: "Scheduler Web App",
     description:
       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
+    link: "https://seyeonjo.notion.site/Scheduler-Web-App-36c37d7b064c4c75832f253143b553ca?pvs=4",
   },
   {
-    iconUrl: threads,
+    iconUrl: concierge,
     theme: "btn-back-green",
     name: "Condo Management Web App",
     description:
       'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://www.linkedin.com/in/seyeonjo/",
+    link: "https://seyeonjo.notion.site/Condo-Management-Web-App-6f6d4cc1776b4dd6b522b6d057dda245?pvs=4",
   },
-  // {
-  //   iconUrl: car,
-  //   theme: "btn-back-blue",
-  //   name: "Car Finding App",
-  //   description:
-  //     "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
-  //   caseLink: "https://www.linkedin.com/in/seyeonjo/",
-  //   githubLink: "https://github.com/Seyeon-Jo",
-  // },
-  // {
-  //   iconUrl: snapgram,
-  //   theme: "btn-back-pink",
-  //   name: "Full Stack Instagram Clone",
-  //   description:
-  //     "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-  //   caseLink: "https://www.linkedin.com/in/seyeonjo/",
-  //   githubLink: "https://github.com/Seyeon-Jo",
-  // },
-  // {
-  //   iconUrl: estate,
-  //   theme: "btn-back-black",
-  //   name: "Real-Estate Application",
-  //   description:
-  //     "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
-  //   caseLink: "https://www.linkedin.com/in/seyeonjo/",
-  //   githubLink: "https://github.com/Seyeon-Jo",
-  // },
+  {
+    iconUrl: food,
+    theme: "btn-back-blue",
+    name: "Scarborough Food Network App",
+    description:
+      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
+    link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
+  },
+  {
+    iconUrl: journal,
+    theme: "btn-back-pink",
+    name: "Journal Web App",
+    description:
+      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
+    link: "https://seyeonjo.notion.site/Journal-Web-App-2d969639dda1458f896a9a2dad2b6337?pvs=4",
+  },
+  {
+    iconUrl: chatbot,
+    theme: "btn-back-black",
+    name: "AI Chatbot",
+    description:
+      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+    link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
+  },
   // {
   //   iconUrl: summiz,
   //   theme: "btn-back-yellow",
@@ -257,7 +261,7 @@ export const projects = [
 
 export const studies = [
   {
-    iconUrl: summiz,
+    iconUrl: blog,
     theme: "btn-back-pink",
     name: "Github Blog",
     description:
@@ -265,7 +269,7 @@ export const studies = [
     link: "https://seyeon-jo.github.io/",
   },
   {
-    iconUrl: snapgram,
+    iconUrl: dictionary,
     theme: "btn-back-black",
     name: "UX dictionary in Notion",
     description:
