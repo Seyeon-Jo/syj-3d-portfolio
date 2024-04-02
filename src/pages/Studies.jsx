@@ -14,9 +14,10 @@ const Studies = () => {
         </span>
       </h1>
       <p className="text-slate-500 mt-4 leading-relaxed">
-        I have conducted various studies, including academic research and
-        personal investigations. Below are some of the studies I have
-        undertaken.
+        I share insights and discoveries from my ongoing learning journey.
+        Explore a variety of topics, from programming languages to design
+        principles, as I document my growth and exploration in the world of
+        technology and beyond.
       </p>
       <div className="flex flex-wrap my-20 gap-16">
         {studies.map((study) => (
