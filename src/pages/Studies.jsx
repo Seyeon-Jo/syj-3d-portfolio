@@ -10,7 +10,7 @@ const Studies = () => {
       <h1 className="head-text">
         My{" "}
         <span className="drop-shadow purple-gradient_text font-semibold">
-          Studies
+          Learning
         </span>
       </h1>
       <p className="text-slate-500 mt-4 leading-relaxed">

@@ -34,7 +34,7 @@ const Navbar = () => {
             isActive ? "text-purple-600" : "text-black"
           }
         >
-          Studies
+          Learning
         </NavLink>
       </nav>
     </header>
