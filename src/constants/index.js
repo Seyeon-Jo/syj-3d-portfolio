@@ -254,7 +254,7 @@ export const projects = [
     name: "Case Study Temp",
     description:
       "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://www.notion.so/seyeonjo/Case-Study-Temp-ba898c338c2c44e4873485324781f67c?pvs=4#be23b2c56f3442d0bd1d42920cf2d897",
+    link: "https://seyeonjo.notion.site/Case-Study-Temp-ba898c338c2c44e4873485324781f67c?pvs=4",
   },
 ];
 
