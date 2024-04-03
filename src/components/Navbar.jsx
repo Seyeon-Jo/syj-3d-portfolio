@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="header">
+    <header className="header flex justify-between items-center px-4 py-2">
       <NavLink
         to="/"
         className="w-10 h-10 rounded-lg bg-white items-center justify-center flex font-bold shadow-md"
@@ -18,16 +18,16 @@ const Navbar = () => {
       </NavLink>
 
       {/* Hamburger menu icon */}
-      <div className="md:hidden">
+      <div className="relative md:hidden">
         <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
           <img src={menu} alt="Menu" className="w-9 h-9 mt-2" />
         </button>
       </div>
 
       <nav
-        className={`flex flex-col md:flex-row text-lg gap-7 font-medium ${
+        className={`flex flex-col items-center justify-center md:flex-row text-lg gap-7 font-medium ${
           isMenuOpen
-            ? "absolute top-full left-0 w-64 p-4 bg-purple-700"
+            ? "absolute top-full left-0 right-0 mx-auto w-full p-4 bg-slate-100"
             : "hidden md:flex md:bg-transparent"
         }`}
         onClick={closeMenu}
