@@ -242,22 +242,22 @@ export const projects = [
       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
     link: "https://seyeonjo.notion.site/Scheduler-Web-App-36c37d7b064c4c75832f253143b553ca?pvs=4",
   },
-  {
-    iconUrl: journal,
-    theme: "btn-back-pink",
-    name: "Journal Web App",
-    description:
-      "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
-    link: "https://seyeonjo.notion.site/Journal-Web-App-2d969639dda1458f896a9a2dad2b6337?pvs=4",
-  },
-  {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
-    name: "Case Study Temp",
-    description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-    link: "https://seyeonjo.notion.site/Case-Study-Temp-ba898c338c2c44e4873485324781f67c?pvs=4",
-  },
+  // {
+  //   iconUrl: journal,
+  //   theme: "btn-back-pink",
+  //   name: "Journal Web App",
+  //   description:
+  //     "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
+  //   link: "https://seyeonjo.notion.site/Journal-Web-App-2d969639dda1458f896a9a2dad2b6337?pvs=4",
+  // },
+  // {
+  //   iconUrl: summiz,
+  //   theme: "btn-back-yellow",
+  //   name: "Case Study Temp",
+  //   description:
+  //     "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
+  //   link: "https://seyeonjo.notion.site/Case-Study-Temp-ba898c338c2c44e4873485324781f67c?pvs=4",
+  // },
 ];
 
 export const studies = [

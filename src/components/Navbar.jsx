@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
 import { logo } from "../assets/images";
 
-const Navbar = () => {
+const NavLinks = () => {
   return (
     <header className="header">
       <NavLink
@@ -38,6 +39,19 @@ const Navbar = () => {
         </NavLink>
       </nav>
     </header>
+  );
+};
+
+const Navbar = () => {
+  return (
+    <nav>
+      <div>
+        <NavLinks />
+      </div>
+      <div>
+        <button></button>
+      </div>
+    </nav>
   );
 };
 
