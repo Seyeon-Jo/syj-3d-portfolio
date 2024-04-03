@@ -1,9 +1,13 @@
 import { NavLink } from "react-router-dom";
-import { Menu, X } from "lucide-react";
+import { menu } from "../assets/icons";
+import { useState } from "react";
 
-import { logo } from "../assets/images";
+const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
 
-const NavLinks = () => {
   return (
     <header className="header">
       <NavLink
@@ -12,7 +16,22 @@ const NavLinks = () => {
       >
         <p className="purple-gradient_text">SJ</p>
       </NavLink>
-      <nav className="flex text-lg gap-7 font-medium">
+
+      {/* Hamburger menu icon */}
+      <div className="md:hidden">
+        <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
+          <img src={menu} alt="Menu" className="w-9 h-9 mt-2" />
+        </button>
+      </div>
+
+      <nav
+        className={`flex flex-col md:flex-row text-lg gap-7 font-medium ${
+          isMenuOpen
+            ? "absolute top-full left-0 w-64 p-4 bg-purple-700"
+            : "hidden md:flex md:bg-transparent"
+        }`}
+        onClick={closeMenu}
+      >
         <NavLink
           to="/about"
           className={({ isActive }) =>
@@ -39,19 +58,6 @@ const NavLinks = () => {
         </NavLink>
       </nav>
     </header>
-  );
-};
-
-const Navbar = () => {
-  return (
-    <nav>
-      <div>
-        <NavLinks />
-      </div>
-      <div>
-        <button></button>
-      </div>
-    </nav>
   );
 };
 
