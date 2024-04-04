@@ -195,7 +195,7 @@ export const socialLinks = [
   {
     name: "Contact",
     iconUrl: contact,
-    link: "/contact",
+    link: "mailto:sjo9@my.centennialcollege.ca",
   },
   {
     name: "GitHub",
