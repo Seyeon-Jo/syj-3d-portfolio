@@ -40,18 +40,18 @@ const About = () => {
 
         {/* Introduction and Resume */}
         <div className="flex-1 ml-5">
-          <p>
+          <p className="text-slate-500">
             UX Designer based in Toronto, specializing in Software Engineering and
             Digital Experience Design.
           </p>
           {/* Resume Summary or Link */}
-          <p className="mt-4">
+          <p className="mt-4 text-slate-500">
             I have a passion for creating seamless user experiences and have been
             involved in various projects that focus on user-centric design.
           </p>
           {/* You can also add a downloadable link to your resume */}
-          <a href="/resume.pdf" target="_blank" className="text-blue-500 hover:underline mt-2 block">
-            Download my resume
+          <a href="/resume.pdf" target="_blank" className="bg-purple-600 text-white hover:bg-purple-700 font-medium py-2 px-4 rounded mt-2 inline-block">
+          Resume
           </a>
         </div>
       </div>
