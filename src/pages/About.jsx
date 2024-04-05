@@ -44,7 +44,7 @@ const About = () => {
             UX Designer from Toronto with a background in Software Engineering and a passion for creating intuitive digital experiences.
           </p>
           {/* Resume Summary or Link */}
-          <p className="mt-4 text-slate-500">
+          <p className="mt-2 text-slate-500">
             My journey has been driven by a love for design that solves real problems, enhances usability, and delights users. I thrive on collaboration, bringing innovative solutions to complex challenges. Let's connect and create something impactful together.
           </p>
           {/* You can also add a downloadable link to your resume */}
