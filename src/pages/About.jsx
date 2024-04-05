@@ -26,7 +26,7 @@ const About = () => {
           Digital Experience Design.
         </p>
       </div>
-
+/*
       {/* Photo, Introduction, and Resume Section */}
       <div className="flex flex-row mt-10 items-center">
         {/* Photo */}
@@ -52,7 +52,35 @@ const About = () => {
           Download My Resume
           </a>
         </div>
-      </div>
+      </div> */
+
+      {/* Photo, Introduction, and Resume Section */}
+<div className="flex flex-col sm:flex-row mt-10 items-center">
+  {/* Photo */}
+  <div className="sm:flex-1 flex justify-center items-start">
+    <img
+      src="/profile.jpeg" // Replace with the correct path to your photo
+      alt="Seyeon"
+      className="rounded-full max-w-[300px] mx-auto" // Adjust as necessary, mx-auto centers the image
+    />
+  </div>
+
+  {/* Introduction and Resume */}
+  <div className="sm:flex-1 sm:ml-5 mt-4 sm:mt-0">
+    <p className="text-slate-500">
+      UX Designer from Toronto with a background in Software Engineering and a passion for creating intuitive digital experiences.
+    </p>
+    {/* Resume Summary or Link */}
+    <p className="mt-2 text-slate-500">
+      My journey has been driven by a love for design that solves real problems, enhances usability, and delights users. I thrive on collaboration, bringing innovative solutions to complex challenges. Let's connect and create something impactful together.
+    </p>
+    {/* Downloadable link to your resume */}
+    <a href="/resume.pdf" target="_blank" className="bg-purple-600 text-white hover:bg-purple-700 font-medium py-2 px-4 rounded mt-4 sm:mt-6 inline-block">
+      Download My Resume
+    </a>
+  </div>
+</div>
+
 
       <div className="py-10 flex flex-col mt-10">
         <h3 className="subhead-text">My Skills</h3>
