@@ -28,7 +28,7 @@ const About = () => {
       </div>
 
       {/* Photo, Introduction, and Resume Section */}
-      <div className="flex flex-row mt-5 items-center">
+      <div className="flex flex-row mt-10 items-center">
         {/* Photo */}
         <div className="flex-1 flex justify-center items-start">
           <img
