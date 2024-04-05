@@ -27,6 +27,35 @@ const About = () => {
         </p>
       </div>
 
+      {/* Photo, Introduction, and Resume Section */}
+      <div className="flex flex-row mt-5 items-center">
+        {/* Photo */}
+        <div className="flex-1 flex justify-center items-start">
+          <img
+            src="/profile.png" // Replace with the correct path to your photo
+            alt="Seyeon"
+            className="rounded-full max-w-[200px]" // Adjust as necessary
+          />
+        </div>
+
+        {/* Introduction and Resume */}
+        <div className="flex-1 ml-5">
+          <p>
+            UX Designer based in Toronto, specializing in Software Engineering and
+            Digital Experience Design.
+          </p>
+          {/* Resume Summary or Link */}
+          <p className="mt-4">
+            I have a passion for creating seamless user experiences and have been
+            involved in various projects that focus on user-centric design.
+          </p>
+          {/* You can also add a downloadable link to your resume */}
+          <a href="/resume.pdf" target="_blank" className="text-blue-500 hover:underline mt-2 block">
+            Download my resume
+          </a>
+        </div>
+      </div>
+
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
 
