@@ -32,26 +32,24 @@ const About = () => {
         {/* Photo */}
         <div className="flex-1 flex justify-center items-start">
           <img
-            src="/profile.png" // Replace with the correct path to your photo
+            src="/profile.jpeg" // Replace with the correct path to your photo
             alt="Seyeon"
-            className="rounded-full max-w-[200px]" // Adjust as necessary
+            className="rounded-full max-w-[300px]" // Adjust as necessary
           />
         </div>
 
         {/* Introduction and Resume */}
         <div className="flex-1 ml-5">
           <p className="text-slate-500">
-            UX Designer based in Toronto, specializing in Software Engineering and
-            Digital Experience Design.
+            UX Designer from Toronto with a background in Software Engineering and a passion for creating intuitive digital experiences.
           </p>
           {/* Resume Summary or Link */}
           <p className="mt-4 text-slate-500">
-            I have a passion for creating seamless user experiences and have been
-            involved in various projects that focus on user-centric design.
+            My journey has been driven by a love for design that solves real problems, enhances usability, and delights users. I thrive on collaboration, bringing innovative solutions to complex challenges. Let's connect and create something impactful together.
           </p>
           {/* You can also add a downloadable link to your resume */}
-          <a href="/resume.pdf" target="_blank" className="bg-purple-600 text-white hover:bg-purple-700 font-medium py-2 px-4 rounded mt-2 inline-block">
-          Resume
+          <a href="/resume.pdf" target="_blank" className="bg-purple-600 text-white hover:bg-purple-700 font-medium py-2 px-4 rounded mt-4 inline-block">
+          Download My Resume
           </a>
         </div>
       </div>
