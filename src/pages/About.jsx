@@ -48,7 +48,7 @@ const About = () => {
             My journey has been driven by a love for design that solves real problems, enhances usability, and delights users. I thrive on collaboration, bringing innovative solutions to complex challenges. Let's connect and create something impactful together.
           </p>
           {/* You can also add a downloadable link to your resume */}
-          <a href="/resume.pdf" target="_blank" className="bg-purple-600 text-white hover:bg-purple-700 font-medium py-2 px-4 rounded mt-4 inline-block">
+          <a href="/resume.pdf" target="_blank" className="bg-purple-600 text-white hover:bg-purple-700 font-medium py-2 px-4 rounded mt-6 inline-block">
           Download My Resume
           </a>
         </div>
