@@ -146,9 +146,9 @@ export const experiences = [
     points: [
       "Participated in usability testing and created user personas for the MDIS (MTO Data and Information Strategy).",
       "Improved the FFS (Fee for Service) procurement process by creating flowcharts and documentation to aid managers in hiring procedures.",
-      "Assisted in the GTSSD & IPEO CRM project by mapping user personas and journeys to pinpoint areas for enhancement.",
+      "Assisted in the GTSSD & IPEO CRM project by engaging in discovery session, including user personas and journey map.",
       "Enhanced the prototype of the RSS (Roadside Scheduling System) and CMS (Certification Management System) focusing on user experience and usability.",
-      "Developed “PingBot”, an AI chatbot for the OPS Hackathon, involving user research, persona creation, and prototype design to centralize learning resources for employees.",
+      "Developed “PingBot”, an AI chatbot for the OPS Hackathon, involving user research, user persona, and prototype design to centralize learning resources for employees.",
     ],
   },
   // {
