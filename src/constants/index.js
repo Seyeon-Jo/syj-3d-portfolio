@@ -144,11 +144,11 @@ export const experiences = [
     iconBg: "#accbe1",
     date: "January 2024 - April 2024",
     points: [
-      "Worked on usability testing and developed user personas for the MTO Data and Information Strategy (MDIS), enhancing data-driven decision-making and user interface navigation.",
-      "Streamlined the Fee for Service (FFS) Procurement process, creating detailed flowcharts and documentation to facilitate easier manager understanding and execution of candidate hiring procedures.",
-      "Contributed to the Global Talent and Settlement Services Division (GTSSD) & Immigration, Promotion, Employment, Outreach (IPEO) CRM project by engaging in discovery sessions and user persona mapping to identify improvement areas.",
-      "Played a key role in redesigning the Roadside Scheduling System (RSS) and Certification Management System (CMS), focusing on user experience improvements and system usability.",
-      "Spearheaded the design and development of “PingBot” for the 5th Annual OPS Phenomenal Hackathon, an AI chatbot aimed at centralizing learning resources for OPS employees, which involved conducting user research, persona creation, and prototype design.",
+      "Participated in usability testing and created user personas for the MDIS (MTO Data and Information Strategy).",
+      "Improved the FFS (Fee for Service) procurement process by creating flowcharts and documentation to aid managers in hiring procedures.",
+      "Assisted in the GTSSD & IPEO CRM project by mapping user personas and journeys to pinpoint areas for enhancement.",
+      "Enhanced the prototype of the RSS (Roadside Scheduling System) and CMS (Certification Management System) focusing on user experience and usability.",
+      "Developed “PingBot”, an AI chatbot for the OPS Hackathon, involving user research, persona creation, and prototype design to centralize learning resources for employees.",
     ],
   },
   // {
