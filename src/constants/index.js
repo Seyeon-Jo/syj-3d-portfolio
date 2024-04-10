@@ -214,15 +214,15 @@ export const projects = [
   {
     iconUrl: food,
     theme: "btn-back-blue",
-    name: "Scarborough Food Network Hackathon - Food Bank App",
+    name: "Scarborough Food Network Hackathon",
     description:
-      "Developed a desktop and mobile app to connect individuals facing food insecurity in Scarborough and the Greater Toronto Area with local food banks, aiming to streamline access to food resources.",
+      "Developed a desktop and mobile app to connect individuals facing food insecurity in Scarborough and the GTA with local food banks, aiming to streamline access to food resources.",
     link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
   },
   {
     iconUrl: chatbot,
     theme: "btn-back-black",
-    name: "OPS Phenomenal Hackathon - AI Chatbot 'PingBot'",
+    name: "OPS Hackathon - AI Chatbot",
     description:
       "Developed an AI chatbot, 'PingBot,' to simplify finding development opportunities within the OPS by enabling course searches by role or skill and answering learning and development queries.",
     link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
