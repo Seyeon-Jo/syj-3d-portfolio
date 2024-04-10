@@ -214,35 +214,35 @@ export const projects = [
   {
     iconUrl: food,
     theme: "btn-back-blue",
-    name: "Scarborough Food Network App",
+    name: "Scarborough Food Network Hackathon - Food Bank App",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
+      "Developed a desktop and mobile app to connect individuals facing food insecurity in Scarborough and the Greater Toronto Area with local food banks, aiming to streamline access to food resources.",
     link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
   },
   {
     iconUrl: chatbot,
     theme: "btn-back-black",
-    name: "AI Chatbot",
+    name: "OPS Phenomenal Hackathon - AI Chatbot 'PingBot'",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+      "Developed an AI chatbot, "PingBot," to simplify finding development opportunities within the OPS by enabling course searches by role or skill and answering learning and development queries.",
     link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
-  },
-  {
-    iconUrl: concierge,
-    theme: "btn-back-green",
-    name: "Condo Management Web App",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://seyeonjo.notion.site/Condo-Management-Web-App-6f6d4cc1776b4dd6b522b6d057dda245?pvs=4",
   },
   {
     iconUrl: scheduler,
     theme: "btn-back-red",
     name: "Scheduler Web App",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
+      "Created a comprehensive scheduler web application designed to enhance time management for individuals and collaboration for teams, aiming to boost overall productivity.",
     link: "https://seyeonjo.notion.site/Scheduler-Web-App-36c37d7b064c4c75832f253143b553ca?pvs=4",
   },
+  // {
+  //   iconUrl: concierge,
+  //   theme: "btn-back-green",
+  //   name: "Condo Management Web App",
+  //   description:
+  //     'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+  //   link: "https://seyeonjo.notion.site/Condo-Management-Web-App-6f6d4cc1776b4dd6b522b6d057dda245?pvs=4",
+  // },
   // {
   //   iconUrl: journal,
   //   theme: "btn-back-pink",
