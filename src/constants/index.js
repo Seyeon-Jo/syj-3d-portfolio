@@ -214,7 +214,7 @@ export const projects = [
   {
     iconUrl: food,
     theme: "btn-back-blue",
-    name: "Scarborough Food Network Hackathon",
+    name: "SFN Hackathon - Foodbank App",
     description:
       "Developed a desktop and mobile app to connect individuals facing food insecurity in Scarborough and the GTA with local food banks, aiming to streamline access to food resources.",
     link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
