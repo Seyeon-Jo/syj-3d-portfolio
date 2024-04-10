@@ -230,7 +230,7 @@ export const projects = [
   {
     iconUrl: scheduler,
     theme: "btn-back-red",
-    name: "Scheduler Web App",
+    name: "Team Project - Scheduler App",
     description:
       "Created a comprehensive scheduler web application designed to enhance time management for individuals and collaboration for teams, aiming to boost overall productivity.",
     link: "https://seyeonjo.notion.site/Scheduler-Web-App-36c37d7b064c4c75832f253143b553ca?pvs=4",
