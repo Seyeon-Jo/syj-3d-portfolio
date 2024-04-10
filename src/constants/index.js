@@ -224,7 +224,7 @@ export const projects = [
     theme: "btn-back-black",
     name: "OPS Phenomenal Hackathon - AI Chatbot 'PingBot'",
     description:
-      "Developed an AI chatbot, "PingBot," to simplify finding development opportunities within the OPS by enabling course searches by role or skill and answering learning and development queries.",
+      "Developed an AI chatbot, 'PingBot,' to simplify finding development opportunities within the OPS by enabling course searches by role or skill and answering learning and development queries.",
     link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
   },
   {
