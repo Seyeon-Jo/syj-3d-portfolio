@@ -144,11 +144,11 @@ export const experiences = [
     iconBg: "#accbe1",
     date: "January 2024 - April 2024",
     points: [
-      "Worked on usability testing and developed user personas for the MTO Data and Information Strategy (MDIS), enhancing data-driven decision-making and user interface navigation.",
-      "Streamlined the Fee for Service (FFS) Procurement process, creating detailed flowcharts and documentation to facilitate easier manager understanding and execution of candidate hiring procedures.",
-      "Contributed to the Global Talent and Settlement Services Division (GTSSD) & Immigration, Promotion, Employment, Outreach (IPEO) CRM project by engaging in discovery sessions and user persona mapping to identify improvement areas.",
-      "Played a key role in redesigning the Roadside Scheduling System (RSS) and Certification Management System (CMS), focusing on user experience improvements and system usability.",
-      "Spearheaded the design and development of “PingBot” for the 5th Annual OPS Phenomenal Hackathon, an AI chatbot aimed at centralizing learning resources for OPS employees, which involved conducting user research, persona creation, and prototype design.",
+      "Participated in usability testing and created user personas for the MDIS (MTO Data and Information Strategy).",
+      "Improved the FFS (Fee for Service) procurement process by creating flowcharts and documentation to aid managers in hiring procedures.",
+      "Assisted in the GTSSD & IPEO CRM project by engaging in discovery session, including user personas and journey map.",
+      "Enhanced the prototype of the RSS (Roadside Scheduling System) and CMS (Certification Management System) focusing on user experience and usability.",
+      "Developed “PingBot”, an AI chatbot for the OPS Hackathon, involving user research, user persona, and prototype design to centralize learning resources for employees.",
     ],
   },
   // {
@@ -214,9 +214,9 @@ export const projects = [
   {
     iconUrl: food,
     theme: "btn-back-blue",
-    name: "Scarborough Food Network App",
+    name: "SFN Foodbank App",
     description:
-      "Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.",
+      "Developed a desktop and mobile app to connect individuals facing food insecurity in Scarborough and the GTA with local food banks, aiming to streamline access to food resources.",
     link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
   },
   {
@@ -230,9 +230,9 @@ export const projects = [
   {
     iconUrl: chatbot,
     theme: "btn-back-black",
-    name: "AI Chatbot",
+    name: "AI Chatbot 'PingBot'",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+      "Developed an AI chatbot, 'PingBot,' to simplify finding development opportunities within the OPS by enabling course searches by role or skill and answering learning and development queries.",
     link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
   },
   {
@@ -240,7 +240,7 @@ export const projects = [
     theme: "btn-back-pink",
     name: "MDIS Portal",
     description:
-      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+      "Developed an AI chatbot, 'PingBot,' to simplify finding development opportunities within the OPS by enabling course searches by role or skill and answering learning and development queries.",
     link: "https://seyeonjo.notion.site/MDIS-Portal-2df6be3040214d219d3315b996098d49?pvs=4",
   },
   {
@@ -248,7 +248,7 @@ export const projects = [
     theme: "btn-back-red",
     name: "Scheduler Web App",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
+      "Created a comprehensive scheduler web application designed to enhance time management for individuals and collaboration for teams, aiming to boost overall productivity.",
     link: "https://seyeonjo.notion.site/Scheduler-Web-App-36c37d7b064c4c75832f253143b553ca?pvs=4",
   },
   {
