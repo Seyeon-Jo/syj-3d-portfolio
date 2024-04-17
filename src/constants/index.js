@@ -220,6 +220,14 @@ export const projects = [
     link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
   },
   {
+    iconUrl: summiz,
+    theme: "btn-back-yellow",
+    name: "FFS Procurement Process",
+    description:
+      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
+    link: "https://seyeonjo.notion.site/FFS-Fee-for-Service-Procurement-Process-Redesign-4039a567b5924b95bae332968cb1fe19?pvs=4",
+  },
+  {
     iconUrl: chatbot,
     theme: "btn-back-black",
     name: "AI Chatbot",
@@ -228,12 +236,12 @@ export const projects = [
     link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
   },
   {
-    iconUrl: concierge,
-    theme: "btn-back-green",
-    name: "Condo Management Web App",
+    iconUrl: summiz,
+    theme: "btn-back-pink",
+    name: "MDIS Portal",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://seyeonjo.notion.site/Condo-Management-Web-App-6f6d4cc1776b4dd6b522b6d057dda245?pvs=4",
+      "Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.",
+    link: "https://seyeonjo.notion.site/MDIS-Portal-2df6be3040214d219d3315b996098d49?pvs=4",
   },
   {
     iconUrl: scheduler,
@@ -243,6 +251,14 @@ export const projects = [
       "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
     link: "https://seyeonjo.notion.site/Scheduler-Web-App-36c37d7b064c4c75832f253143b553ca?pvs=4",
   },
+  {
+    iconUrl: concierge,
+    theme: "btn-back-green",
+    name: "Condo Management Web App",
+    description:
+      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+    link: "https://seyeonjo.notion.site/Condo-Management-Web-App-6f6d4cc1776b4dd6b522b6d057dda245?pvs=4",
+  },
   // {
   //   iconUrl: journal,
   //   theme: "btn-back-pink",
@@ -250,14 +266,6 @@ export const projects = [
   //   description:
   //     "Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.",
   //   link: "https://seyeonjo.notion.site/Journal-Web-App-2d969639dda1458f896a9a2dad2b6337?pvs=4",
-  // },
-  // {
-  //   iconUrl: summiz,
-  //   theme: "btn-back-yellow",
-  //   name: "Case Study Temp",
-  //   description:
-  //     "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
-  //   link: "https://seyeonjo.notion.site/Case-Study-Temp-ba898c338c2c44e4873485324781f67c?pvs=4",
   // },
 ];
 
