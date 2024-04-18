@@ -39,6 +39,7 @@ import scheduler from "./scheduler.svg";
 import drawing from "./drawing.svg";
 import modeling from "./modeling.svg";
 import menu from "./menu.svg";
+import ffs from "./ffs.svg";
 
 export {
   css,
@@ -82,4 +83,5 @@ export {
   drawing,
   modeling,
   menu,
+  ffs,
 };

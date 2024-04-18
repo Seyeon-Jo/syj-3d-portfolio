@@ -36,6 +36,7 @@ import {
   scheduler,
   drawing,
   modeling,
+  ffs,
 } from "../assets/icons";
 
 export const skills = [
@@ -213,52 +214,54 @@ export const socialLinks = [
 export const projects = [
   {
     iconUrl: food,
-    theme: "btn-back-blue",
+    theme: "btn-back-green",
     name: "SFN Foodbank App",
     description:
-      "Developed a desktop and mobile app to connect individuals facing food insecurity in Scarborough and the GTA with local food banks, aiming to streamline access to food resources.",
+      "Hackathon Project - Created a responsive web app to help people in Scarborough and the GTA who need food find local food banks easily.",
     link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
   },
   {
-    iconUrl: summiz,
-    theme: "btn-back-yellow",
+    iconUrl: ffs,
+    theme: "btn-back-red",
     name: "FFS Procurement Process",
     description:
-      "App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.",
+      "UX Design Internship Project - Making the FFS procurement process easier and more efficient for Resource Managers at the Ministry of Transportation to improve their experience.",
     link: "https://seyeonjo.notion.site/FFS-Fee-for-Service-Procurement-Process-Redesign-4039a567b5924b95bae332968cb1fe19?pvs=4",
   },
   {
     iconUrl: chatbot,
-    theme: "btn-back-black",
+    theme: "btn-back-blue",
     name: "AI Chatbot 'PingBot'",
     description:
-      "Developed an AI chatbot, 'PingBot,' to simplify finding development opportunities within the OPS by enabling course searches by role or skill and answering learning and development queries.",
+      "Hackathon Project - Created 'PingBot,' an AI chatbot that helps find learning opportunities in the OPS and answers related questions.",
     link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
   },
   {
     iconUrl: summiz,
-    theme: "btn-back-pink",
+    theme: "btn-back-black",
     name: "MDIS Portal",
     description:
-      "Developed an AI chatbot, 'PingBot,' to simplify finding development opportunities within the OPS by enabling course searches by role or skill and answering learning and development queries.",
+      "UX Design Internship Project - Worked on the MDIS Portal project focusing on usability testing as a note-taker, developing user personas and sitemap for business user flow.",
     link: "https://seyeonjo.notion.site/MDIS-Portal-2df6be3040214d219d3315b996098d49?pvs=4",
   },
   {
     iconUrl: scheduler,
-    theme: "btn-back-red",
+    theme: "btn-back-pink",
     name: "Scheduler Web App",
     description:
       "Created a comprehensive scheduler web application designed to enhance time management for individuals and collaboration for teams, aiming to boost overall productivity.",
     link: "https://seyeonjo.notion.site/Scheduler-Web-App-36c37d7b064c4c75832f253143b553ca?pvs=4",
   },
-  {
-    iconUrl: concierge,
-    theme: "btn-back-green",
-    name: "Condo Management Web App",
-    description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://seyeonjo.notion.site/Condo-Management-Web-App-6f6d4cc1776b4dd6b522b6d057dda245?pvs=4",
-  },
+
+  // {
+  //   iconUrl: concierge,
+  //   theme: "btn-back-yellow",
+  //   name: "Condo Management Web App",
+  //   description:
+  //     'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+  //   link: "https://seyeonjo.notion.site/Condo-Management-Web-App-6f6d4cc1776b4dd6b522b6d057dda245?pvs=4",
+  // },
+
   // {
   //   iconUrl: journal,
   //   theme: "btn-back-pink",
