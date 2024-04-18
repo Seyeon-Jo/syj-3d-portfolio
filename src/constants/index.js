@@ -225,7 +225,7 @@ export const projects = [
     theme: "btn-back-red",
     name: "FFS Procurement Process",
     description:
-      "UX Design Internship Project - Making the FFS procurement process easier and more efficient for Resource Managers at the Ministry of Transportation to improve their experience.",
+      "UX Design Internship Project - Redesigned the process easier and more efficient for Resource Managers at the Ministry of Transportation.",
     link: "https://seyeonjo.notion.site/FFS-Fee-for-Service-Procurement-Process-Redesign-4039a567b5924b95bae332968cb1fe19?pvs=4",
   },
   {
@@ -241,7 +241,7 @@ export const projects = [
     theme: "btn-back-black",
     name: "MDIS Portal",
     description:
-      "UX Design Internship Project - Worked on the MDIS Portal project focusing on usability testing as a note-taker, developing user personas and sitemap for business user flow.",
+      "UX Design Internship Project - Worked on the MDIS Portal project focusing on usability testing, user personas and sitemap for better UX.",
     link: "https://seyeonjo.notion.site/MDIS-Portal-2df6be3040214d219d3315b996098d49?pvs=4",
   },
   {
@@ -249,7 +249,7 @@ export const projects = [
     theme: "btn-back-pink",
     name: "Scheduler Web App",
     description:
-      "Created a comprehensive scheduler web application designed to enhance time management for individuals and collaboration for teams, aiming to boost overall productivity.",
+      "Team Project - Created a responsive scheduler web app to improve time management and team collaboration, boosting productivity.",
     link: "https://seyeonjo.notion.site/Scheduler-Web-App-36c37d7b064c4c75832f253143b553ca?pvs=4",
   },
 
