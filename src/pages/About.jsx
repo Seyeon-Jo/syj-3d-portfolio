@@ -15,7 +15,7 @@ const About = () => {
         Hello, I'm{" "}
         <span className="font-semibold purple-gradient_text drop-shadow">
           {" "}
-          Seyeon
+          Seyeon Jo
         </span>{" "}
         👋
       </h1>
@@ -37,16 +37,24 @@ const About = () => {
             className="rounded-full max-w-[300px] mx-auto" // mx-auto to center the image on mobile
           />
         </div>
-      
+
         {/* Introduction and Resume */}
         <div className="sm:flex-1 sm:ml-5 mt-4 sm:mt-0">
           <p className="text-slate-500">
-            UX Designer from Toronto with a background in Software Engineering and a passion for creating intuitive digital experiences.
+            UX Designer from Toronto with a background in Software Engineering
+            and a passion for creating intuitive digital experiences.
           </p>
           <p className="mt-2 text-slate-500">
-            My journey has been driven by a love for design that solves real problems, enhances usability, and delights users. I thrive on collaboration, bringing innovative solutions to complex challenges. Let's connect and create something impactful together.
+            My journey has been driven by a love for design that solves real
+            problems, enhances usability, and delights users. I thrive on
+            collaboration, bringing innovative solutions to complex challenges.
+            Let's connect and create something impactful together.
           </p>
-          <a href="/resume.pdf" target="_blank" className="bg-purple-600 text-white hover:bg-purple-700 font-medium py-2 px-4 rounded mt-4 sm:mt-6 inline-block mx-auto sm:mx-0">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            className="bg-purple-600 text-white hover:bg-purple-700 font-medium py-2 px-4 rounded mt-4 sm:mt-6 inline-block mx-auto sm:mx-0"
+          >
             Download My Resume
           </a>
         </div>
