@@ -1,4 +1,4 @@
-import { mto, sfn } from "../assets/images";
+import { mto, sfn, ffsp, mdis, ops } from "../assets/images";
 import {
   car,
   contact,
@@ -213,7 +213,7 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: food,
+    //iconUrl: food,
     preview: sfn,
     theme: "btn-back-green",
     name: "SFN Foodbank App",
@@ -222,8 +222,8 @@ export const projects = [
     link: "https://seyeonjo.notion.site/Scarborough-Food-Network-App-3804e505c0484271a2e15704d82a7d0c?pvs=4",
   },
   {
-    iconUrl: ffs,
-    preview: sfn,
+    //iconUrl: ffs,
+    preview: ffsp,
     theme: "btn-back-red",
     name: "FFS Procurement Process",
     description:
@@ -231,8 +231,8 @@ export const projects = [
     link: "https://seyeonjo.notion.site/FFS-Fee-for-Service-Procurement-Process-Redesign-4039a567b5924b95bae332968cb1fe19?pvs=4",
   },
   {
-    iconUrl: chatbot,
-    preview: sfn,
+    //iconUrl: chatbot,
+    preview: ops,
     theme: "btn-back-blue",
     name: "AI Chatbot 'PingBot'",
     description:
@@ -240,8 +240,8 @@ export const projects = [
     link: "https://seyeonjo.notion.site/AI-Chatbot-ea947f2afce54324915476d112999c1a?pvs=4",
   },
   {
-    iconUrl: summiz,
-    preview: sfn,
+    //iconUrl: summiz,
+    preview: mdis,
     theme: "btn-back-black",
     name: "MDIS Portal",
     description:
@@ -249,7 +249,7 @@ export const projects = [
     link: "https://seyeonjo.notion.site/MDIS-Portal-2df6be3040214d219d3315b996098d49?pvs=4",
   },
   {
-    iconUrl: scheduler,
+    //iconUrl: scheduler,
     preview: sfn,
     theme: "btn-back-pink",
     name: "Scheduler Web App",

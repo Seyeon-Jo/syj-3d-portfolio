@@ -23,7 +23,8 @@ const Projects = () => {
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project) => (
           <div className="lg:w-[400px] w-full" key={project.name}>
-            <div className="block-container w-12 h-12">
+            {/* This section is the icon before project cover img */}
+            {/* <div className="block-container w-12 h-12">
               <div className={`btn-back rounded-xl ${project.theme}`} />
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img
@@ -32,9 +33,9 @@ const Projects = () => {
                   className="w-1/2 h-1/2 object-contain"
                 />
               </div>
-            </div>
+            </div> */}
 
-            <div className="mt-5 flex flex-col">
+            <div className="flex flex-col">
               <div className="flex justify-center items-center mb-4">
                 <img
                   src={project.preview}
