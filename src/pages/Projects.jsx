@@ -35,6 +35,15 @@ const Projects = () => {
             </div>
 
             <div className="mt-5 flex flex-col">
+              <div className="flex justify-center items-center mb-4">
+                <img
+                  src={project.preview}
+                  alt={project.name}
+                  className="object-contain"
+                  style={{ width: "100%" }} // Image will fill the width of its container
+                />
+              </div>
+
               <h4 className="text-2xl font-poppins font-semibold">
                 {project.name}
               </h4>

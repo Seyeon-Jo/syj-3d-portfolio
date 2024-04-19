@@ -1,4 +1,4 @@
-import { mto } from "../assets/images";
+import { mto, sfn } from "../assets/images";
 import {
   car,
   contact,
@@ -214,6 +214,7 @@ export const socialLinks = [
 export const projects = [
   {
     iconUrl: food,
+    preview: sfn,
     theme: "btn-back-green",
     name: "SFN Foodbank App",
     description:
@@ -222,6 +223,7 @@ export const projects = [
   },
   {
     iconUrl: ffs,
+    preview: sfn,
     theme: "btn-back-red",
     name: "FFS Procurement Process",
     description:
@@ -230,6 +232,7 @@ export const projects = [
   },
   {
     iconUrl: chatbot,
+    preview: sfn,
     theme: "btn-back-blue",
     name: "AI Chatbot 'PingBot'",
     description:
@@ -238,6 +241,7 @@ export const projects = [
   },
   {
     iconUrl: summiz,
+    preview: sfn,
     theme: "btn-back-black",
     name: "MDIS Portal",
     description:
@@ -246,6 +250,7 @@ export const projects = [
   },
   {
     iconUrl: scheduler,
+    preview: sfn,
     theme: "btn-back-pink",
     name: "Scheduler Web App",
     description:
